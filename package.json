@@ -16,7 +16,7 @@
   },
   "author": "Carlos Matallín",
   "license": "ISC",
-  "homepage": "http://matallo.github.io/mercadillo/",
+  "homepage": "https://matallo.github.io/mercadillo/",
   "browserslist": "last 2 versions",
   "dependencies": {
     "babel-eslint": "^8.2.2",
