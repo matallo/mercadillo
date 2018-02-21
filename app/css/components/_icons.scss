@@ -1,0 +1,32 @@
+/* ==========================================================================
+   #ICONS
+   ========================================================================== */
+
+.Icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+}
+
+.Icon--link {
+  &:hover {
+    .Icon-path {
+      fill: var(--color-gray--hover);
+    }
+  }
+}
+
+.Icon-path {
+  transition: fill 0.2s;
+  fill: var(--color-gray);
+}
+
+.Icon--Twitter {
+  .Icon-path {
+    fill: var(--color-twitter);
+  }
+}

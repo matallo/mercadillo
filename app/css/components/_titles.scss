@@ -1,0 +1,40 @@
+/* ==========================================================================
+   #TITLES
+   ========================================================================== */
+
+.Title {
+  font-weight: 400;
+}
+
+.Subtitle {
+  margin-bottom: 10px;
+  font-size: 12px;
+  letter-spacing: 1.25px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+/* Size
+   ========================================================================== */
+
+.Title--h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+@media (--viewport--m) {
+  .Title--h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.Title--h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Title--h3 {
+  font-size: 18px;
+  line-height: 22px;
+}

@@ -1,0 +1,44 @@
+/* ==========================================================================
+   #GRID
+   ========================================================================== */
+
+$gap: 15px;
+$columns: 12;
+
+.Grid {
+  display: flex;
+}
+
+.Grid-inner {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-right: - $gap;
+  margin-left: - $gap;
+}
+
+.Grid-item {
+  padding-right: $gap;
+  padding-left: $gap;
+}
+
+@mixin col($i, $n) {
+  flex: 0 0 $i * 100 / $n * 1%;
+  max-width: $i * 100 / $n * 1%;
+}
+
+@for $i from 1 through $columns {
+  .Grid-item--#{$i} {
+    @include col($i, $columns);
+  }
+}
+
+@each $viewport, $breakpoint in $viewports {
+  @media (--#{$viewport}) {
+    @for $i from 1 through $columns {
+      .r-#{$viewport}-Grid-item--#{$i} {
+        @include col($i, $columns);
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+/* ==========================================================================
+   #BASE
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #FFF;
+  color: var(--color-text--primary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: var(--font-weight-base);
+  line-height: var(--line-height-base);
+  -webkit-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+}
+
+strong {
+  font-weight: 600;
+}
+
+button,
+input,
+select {
+  outline: none;
+}
+
+button {
+  margin: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: var(--font-family-base);
+  cursor: pointer;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  transition: color 0.2s;
+  color: var(--color-text--link);
+
+  &:hover {
+    color: color(var(--color-text--link) shade(10%));
+  }
+}

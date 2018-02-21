@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #NAVBAR
+   ========================================================================== */
+
+.Navbar {
+  z-index: 10;
+  width: 100%;
+  border-bottom: 1px solid color(#000 a(25%));
+  background: #FFF;
+  box-shadow: 0 1px 1px color(#000 a(5%));
+}
+
+.Navbar-inner {
+  padding: 15px 0;
+}
+
+.Navbar-title {
+  color: var(--color-text--primary);
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: var(--color-text--primary--hover);
+  }
+}

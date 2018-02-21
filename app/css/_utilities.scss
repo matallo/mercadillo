@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #UTILITIES
+   ========================================================================== */
+
+.u-inner {
+  @include clearfix;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: var(--size--xl);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}

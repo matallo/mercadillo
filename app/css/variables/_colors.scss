@@ -1,0 +1,18 @@
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+
+:root {
+  --color-gray: #DDD;
+  --color-gray--hover: color(var(--color-gray) shade(5%));
+  --color-green: #2ED06E;
+  --color-green--hover: color(var(--color-green) shade(5%));
+  --color-twitter: #00ACED;
+
+  --color-text--primary: #666;
+  --color-text--primary--hover: color(var(--color-text--primary) shade(5%));
+  --color-text--secondary: #999;
+  --color-text--secondary--hover: color(var(--color-text--secondary) shade(5%));
+  --color-text--title: #444;
+  --color-text--link: #0073C6;
+}

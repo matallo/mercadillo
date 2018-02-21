@@ -1,0 +1,41 @@
+/* ==========================================================================
+   #SECTION
+   ========================================================================== */
+
+.Section {
+  padding: 60px 0;
+}
+
+.Section-header,
+.Section-content {
+  margin-bottom: 30px;
+}
+
+.Section-content {
+  color: var(--color-text--primary);
+
+  p {
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.Section-title {
+  margin-bottom: 10px;
+  color: var(--color-text--title);
+}
+
+.Section-description {
+  color: var(--color-text--secondary);
+}
+
+.Section-button {
+  max-width: 300px;
+
+  @media (--viewport--s) {
+    max-width: 100%;
+  }
+}
